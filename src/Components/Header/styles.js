@@ -37,6 +37,7 @@ export const Profile = styled.div`
     flex-direction: column;
 
     Strong {
+      text-align: end;
       font-size: 16px;
     }
     button {
