@@ -7,6 +7,7 @@ export const Container = styled.div`
   display: flex;
   align-items: center;
   gap: 1rem;
+  margin-bottom: 8px;
   input {
     background-color: transparent;
     color: ${({ theme }) => theme.COLORS.WHITE};

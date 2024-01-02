@@ -10,4 +10,9 @@ export const Container = styled.button`
   border-radius: 1rem;
   padding: 1.35rem 3rem;
   gap: 0.5rem;
+  margin-top: 2.4rem;
+  &:disabled {
+    opacity: 0.5;
+    cursor: default;
+  }
 `;

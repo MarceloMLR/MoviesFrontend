@@ -19,10 +19,10 @@ export const Content = styled.div`
 
 export const Head = styled.div`
   display: flex;
-
+  align-items: center;
   justify-content: space-between;
   width: 100%;
-  margin: 5rem 0 4rem;
+  margin: 3rem 0 4rem;
   > h1 {
     font-size: 3.6rem;
     font-weight: 400;
@@ -36,4 +36,5 @@ export const FilmsWrapper = styled.div`
   flex-direction: column;
   padding-right: 16px;
   gap: 2.4rem;
+  margin-bottom: 2.4rem;
 `;
